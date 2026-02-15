@@ -21,7 +21,6 @@ Built with React, TypeScript, Tailwind CSS, and Framer Motion.
 - **Projects section** — Optional portfolio showcase
 - **PDF download** — Optional downloadable resume
 - **3D photo flip** — Click the photo for a fun easter egg
-- **Accessible** — Keyboard navigation, focus trapping, ARIA labels
 
 ## Quick Start
 
@@ -98,13 +97,13 @@ src/
 
 ## Development with AI agents
 
-This project includes [Agentation](https://agentation.com) — a visual feedback toolbar for AI coding agents. When running in development mode (`npm run dev`), a small toolbar appears at the bottom-right of the page.
+This project includes [Agentation](https://agentation.dev/) — a visual feedback toolbar for AI coding agents. When running in development mode (`npm run dev`), a small toolbar appears at the bottom-right of the page.
 
 It lets you click on any element, select text, or annotate parts of your resume, then copy a structured description to your clipboard. Paste it directly into your AI agent's chat to give it precise context about what you want changed.
 
 Agentation is **only active in development** and is automatically stripped from production builds.
 
-> See the [Agentation documentation](https://agentation.com) for more details.
+> See the [Agentation documentation](https://agentation.dev/features) for more details.
 
 ## Contributing
 
