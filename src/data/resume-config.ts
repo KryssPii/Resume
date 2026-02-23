@@ -32,11 +32,14 @@ export const resumeConfig: ResumeConfig = {
   ],
   skills: [
     {
-      title: { fr: 'Bureautique', en: 'Office Tools' },
+      title: { fr: 'Informatique', en: 'IT' },
       type: 'badges',
       items: [
         { name: 'Canva' },
         { name: 'Office365' },
+        { name: 'HTML/CSS' },
+        { name: 'PostGres' },
+        { name: 'Java' },
       ],
     },
     {
