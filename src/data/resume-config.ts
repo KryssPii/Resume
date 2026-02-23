@@ -161,36 +161,30 @@ experiences: [
     },
   },
 ],
-  education: [
-    {
-      school: { fr: 'HEIG', en: 'HEIG' },
-      degree: { fr: 'Bachelor en ingénierie des médias', en: 'Bachelor in Media Engineering' },
-      specialty: { fr: 'Ingénierie des médias', en: 'Media Engineering' },
-      period: { fr: 'En cours', en: 'Ongoing' },
-    },
-    {
-      school: { fr: 'CPNV', en: 'CPNV' },
-      degree: { fr: 'Maturité post-CFC TASV', en: 'Post-CFC TASV Maturity' },
-      period: '2024',
-    },
-    {
-      school: { fr: 'CPNV', en: 'CPNV' },
-      degree: { fr: 'CFC Électronicien', en: 'Electronics Technician CFC' },
-      period: '2021',
-    },
-    {
-      school: { fr: 'École obligatoire', en: 'Compulsory School' },
-      degree: { fr: "Diplôme de fin d'études", en: 'School Leaving Certificate' },
-      period: '2015',
-    },
-  ],
-  hobbies: [
-    { title: { fr: 'Basse', en: 'Bass' } },
-    { title: { fr: 'Cuisine', en: 'Cooking' } },
-    { title: { fr: 'Lecture', en: 'Reading' } },
-    { title: { fr: 'Cinéma', en: 'Cinema' } },
-    { title: { fr: 'Jeux vidéo', en: 'Video Games' } },
-  ],
+education: [
+  {
+    school: { fr: 'HEIG', en: 'HEIG' },
+    degree: { fr: 'Bachelor en ingénierie des médias', en: 'Bachelor in Media Engineering' },
+    specialty: { fr: 'Ingénierie des médias', en: 'Media Engineering' },
+    period: "En cours",
+  },
+  {
+    school: { fr: 'CPNV', en: 'CPNV' },
+    degree: { fr: 'Maturité post-CFC TASV', en: 'Post-CFC TASV Maturity' },
+    period: "2024",
+  },
+  {
+    school: { fr: 'CPNV', en: 'CPNV' },
+    degree: { fr: 'CFC Électronicien', en: 'Electronics Technician CFC' },
+    period: "2021",
+  },
+  {
+    school: { fr: 'École obligatoire', en: 'Compulsory School' },
+    degree: { fr: "Diplôme de fin d'études", en: 'School Leaving Certificate' },
+    period: "2015",
+  },
+],
+
   // Projets (section commentée pour ajout futur)\n  // projects: [],\n  theme: { preset: 'minimal' },
   labels: {
     sections: {
