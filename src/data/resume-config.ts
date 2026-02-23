@@ -54,102 +54,113 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
   ],
-  experiences: [
-    {
-      id: 'ville-lausanne',
-      company: { fr: 'Service de la petite enfance, Ville de Lausanne', en: 'Early Childhood Service, City of Lausanne' },
-      role: { fr: 'Auxiliaire informatique', en: 'IT Auxiliary' },
-      type: { fr: 'Contrat temporaire', en: 'Temporary contract' },
-      period: { fr: 'mars 2025 - août 2025', en: 'March 2025 - August 2025' },
-      description: {
-        fr: 'Planification des rendez-vous avec les centres de vie enfantine pour le déploiement de comptes informatiques et aide à la conception d\'affiches.',
-        en: 'Scheduling appointments with childcare centers for IT account deployment and assisting in poster design.',
+experiences: [
+  {
+    id: 'ville-lausanne',
+    company: { fr: 'Service de la petite enfance, Ville de Lausanne', en: 'Early Childhood Service, City of Lausanne' },
+    role: { fr: 'Auxiliaire informatique', en: 'IT Auxiliary' },
+    type: { fr: 'Contrat temporaire', en: 'Temporary contract' },
+    period: { fr: 'mars 2025 - août 2025', en: 'March 2025 - August 2025' },
+    description: {
+      fr: 'Planification des rendez-vous avec les centres de vie enfantine pour le déploiement de comptes informatiques et aide à la conception d\'affiches.',
+      en: 'Scheduling appointments with childcare centers for IT account deployment and assisting in poster design.',
+    },
+    techs: [],
+    details: {
+      context: {
+        fr: 'Travail en équipe avec les éducateurs et le service informatique.',
+        en: 'Teamwork with educators and the IT department.',
       },
-      techs: [],
-      details: {
-        context: {
-          fr: 'Travail en équipe avec les éducateurs et le service informatique.',
-          en: 'Teamwork with educators and the IT department.',
-        },
-        tasks: {
-          fr: [
-            'Planification et gestion des rendez-vous.',
-            'Déploiement de comptes informatiques pour les éducateurs.',
-            'Conception d\'affiches pour les centres.',
-          ],
-          en: [
-            'Scheduling and managing appointments.',
-            'Deploying IT accounts for educators.',
-            'Designing posters for the centers.',
-          ],
-        },
-        env: {
-          fr: 'Canva, Office365',
-          en: 'Canva, Office365',
-        },
+      tasks: {
+        fr: [
+          'Planification et gestion des rendez-vous.',
+          'Déploiement de comptes informatiques pour les éducateurs.',
+          'Conception d\'affiches pour les centres.',
+        ],
+        en: [
+          'Scheduling and managing appointments.',
+          'Deploying IT accounts for educators.',
+          'Designing posters for the centers.',
+        ],
+      },
+      training: { fr: [], en: [] },
+      env: {
+        fr: 'Canva, Office365',
+        en: 'Canva, Office365',
       },
     },
-    {
-      id: 'protectas',
-      company: { fr: 'Protectas SA', en: 'Protectas SA' },
-      role: { fr: 'Agent de sécurité auxiliaire', en: 'Auxiliary Security Agent' },
-      type: { fr: 'CDD', en: 'Fixed-term contract' },
-      period: { fr: '2021 - 2022', en: '2021 - 2022' },
-      description: {
-        fr: 'Gestion et patrouille de sites, surveillance et fouille si nécessaire, travail de jour ou de nuit.',
-        en: 'Site management and patrolling, surveillance and search if necessary, day or night work.',
+  },
+  {
+    id: 'protectas',
+    company: { fr: 'Protectas SA', en: 'Protectas SA' },
+    role: { fr: 'Agent de sécurité auxiliaire', en: 'Auxiliary Security Agent' },
+    type: { fr: 'CDD', en: 'Fixed-term contract' },
+    period: { fr: '2021 - 2022', en: '2021 - 2022' },
+    description: {
+      fr: 'Gestion et patrouille de sites, surveillance et fouille si nécessaire, travail de jour ou de nuit.',
+      en: 'Site management and patrolling, surveillance and search if necessary, day or night work.',
+    },
+    techs: [],
+    details: {
+      context: {
+        fr: 'Travail en équipe et gestion des situations de stress.',
+        en: 'Teamwork and stress situation management.',
       },
-      techs: [],
-      details: {
-        context: {
-          fr: 'Travail en équipe et gestion des situations de stress.',
-          en: 'Teamwork and stress situation management.',
-        },
-        tasks: {
-          fr: [
-            'Patrouille et surveillance des sites.',
-            'Gestion des situations d\'urgence.',
-            'Travail en horaires décalés (jour/nuit).',
-          ],
-          en: [
-            'Patrolling and monitoring sites.',
-            'Managing emergency situations.',
-            'Working in rotating shifts (day/night).',
-          ],
-        },
+      tasks: {
+        fr: [
+          'Patrouille et surveillance des sites.',
+          'Gestion des situations d\'urgence.',
+          'Travail en horaires décalés (jour/nuit).',
+        ],
+        en: [
+          'Patrolling and monitoring sites.',
+          'Managing emergency situations.',
+          'Working in rotating shifts (day/night).',
+        ],
+      },
+      training: { fr: [], en: [] },
+      env: {
+        fr: '',
+        en: '',
       },
     },
-    {
-      id: 'hessel',
-      company: { fr: 'Hessel espace culturel', en: 'Hessel Cultural Space' },
-      role: { fr: 'Aide au service', en: 'Service Assistant' },
-      type: { fr: 'Contrat temporaire', en: 'Temporary contract' },
-      period: { fr: '2022 - 2023', en: '2022 - 2023' },
-      description: {
-        fr: 'Aide au service au bar, entretien de l\'établissement, gestion des stocks et fermeture du lieu.',
-        en: 'Assistance at the bar, maintenance of the establishment, stock management, and closing the venue.',
+  },
+  {
+    id: 'hessel',
+    company: { fr: 'Hessel espace culturel', en: 'Hessel Cultural Space' },
+    role: { fr: 'Aide au service', en: 'Service Assistant' },
+    type: { fr: 'Contrat temporaire', en: 'Temporary contract' },
+    period: { fr: '2022 - 2023', en: '2022 - 2023' },
+    description: {
+      fr: 'Aide au service au bar, entretien de l\'établissement, gestion des stocks et fermeture du lieu.',
+      en: 'Assistance at the bar, maintenance of the establishment, stock management, and closing the venue.',
+    },
+    techs: [],
+    details: {
+      context: {
+        fr: 'Travail en contact direct avec la clientèle.',
+        en: 'Direct customer contact work.',
       },
-      techs: [],
-      details: {
-        context: {
-          fr: 'Travail en contact direct avec la clientèle.',
-          en: 'Direct customer contact work.',
-        },
-        tasks: {
-          fr: [
-            'Service au bar et gestion des commandes.',
-            'Entretien et rangement de l\'espace culturel.',
-            'Fermeture du lieu et gestion des stocks.',
-          ],
-          en: [
-            'Bar service and order management.',
-            'Maintenance and tidying of the cultural space.',
-            'Closing the venue and stock management.',
-          ],
-        },
+      tasks: {
+        fr: [
+          'Service au bar et gestion des commandes.',
+          'Entretien et rangement de l\'espace culturel.',
+          'Fermeture du lieu et gestion des stocks.',
+        ],
+        en: [
+          'Bar service and order management.',
+          'Maintenance and tidying of the cultural space.',
+          'Closing the venue and stock management.',
+        ],
+      },
+      training: { fr: [], en: [] },
+      env: {
+        fr: '',
+        en: '',
       },
     },
-  ],
+  },
+],
   education: [
     {
       school: { fr: 'HEIG', en: 'HEIG' },
