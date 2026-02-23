@@ -121,10 +121,10 @@ experiences: [
           'Working in rotating shifts (day/night).',
         ],
       },
-      //training: { fr: [], en: [] },
-      //  env: {
-        //  fr: '',
-          //en: '',
+      training: { fr: [], en: [] },
+        env: {
+          fr: 'Aucun',
+          en: 'None',
       },
     },
   },
@@ -156,10 +156,10 @@ experiences: [
           'Closing the venue and stock management.',
         ],
       },
-      //training: { fr: [], en: [] },
-      //env: {
-        //fr: '',
-        //en: '',
+      training: { fr: [], en: [] },
+      env: {
+        fr: 'Aucun',
+        en: 'None',
       },
     },
   },
