@@ -184,6 +184,13 @@ education: [
     period: "2015",
   },
 ],
+  hobbies: [
+    { title: { fr: 'Basse', en: 'Bass' } },
+    { title: { fr: 'Cuisine', en: 'Cooking' } },
+    { title: { fr: 'Lecture', en: 'Reading' } },
+    { title: { fr: 'Cinéma', en: 'Cinema' } },
+    { title: { fr: 'Jeux vidéo', en: 'Video Games' } },
+  ],
 
   // Projets (section commentée pour ajout futur)\n  // projects: [],\n  theme: { preset: 'minimal' },
   labels: {
