@@ -98,7 +98,7 @@ experiences: [
     id: 'protectas',
     company: { fr: 'Protectas SA', en: 'Protectas SA' },
     role: { fr: 'Agent de sécurité auxiliaire', en: 'Auxiliary Security Agent' },
-    type: { fr: 'CDD', en: 'Fixed-term contract' },
+    type: { fr: 'CDI', en: 'permanent contract' },
     period: { fr: '2021 - 2022', en: '2021 - 2022' },
     description: {
       fr: 'Gestion et patrouille de sites, surveillance et fouille si nécessaire, travail de jour ou de nuit.',
@@ -133,7 +133,7 @@ experiences: [
     id: 'hessel',
     company: { fr: 'Hessel espace culturel', en: 'Hessel Cultural Space' },
     role: { fr: 'Aide au service', en: 'Service Assistant' },
-    type: { fr: 'Contrat temporaire', en: 'Temporary contract' },
+    type: { fr: 'Contrat auxiliaire', en: 'Auxiliary contract' },
     period: { fr: '2022 - 2023', en: '2022 - 2023' },
     description: {
       fr: 'Aide au service au bar, entretien de l\'établissement, gestion des stocks et fermeture du lieu.',
