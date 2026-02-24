@@ -37,8 +37,9 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: 'Canva' },
         { name: 'Office365' },
-        { name: 'HTML/CSS' },
-        { name: 'PostGres' },
+        { name: 'HTML' },
+        { name: 'CSS' },
+        { name: 'SQL' },
         { name: 'Java' },
       ],
     },
