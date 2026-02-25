@@ -170,7 +170,7 @@ education: [
     school: { fr: 'HEIG', en: 'HEIG' },
     degree: { fr: 'Bachelor en ingénierie des médias', en: 'Bachelor in Media Engineering' },
     specialty: { fr: 'Ingénierie des médias', en: 'Media Engineering' },
-    period: { fr: 'En cours', en: 'Current' },
+    period: "En cours",
   },
   {
     school: { fr: 'CPNV', en: 'CPNV' },
