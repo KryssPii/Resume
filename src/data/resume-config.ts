@@ -170,16 +170,18 @@ education: [
     school: { fr: 'HEIG', en: 'HEIG' },
     degree: { fr: 'Bachelor en ingénierie des médias', en: 'Bachelor in Media Engineering' },
     specialty: { fr: 'Ingénierie des médias', en: 'Media Engineering' },
-    period: "En cours",
+    period: { fr: 'En cours', en: 'Current' },
   },
   {
     school: { fr: 'CPNV', en: 'CPNV' },
     degree: { fr: 'Maturité post-CFC TASV', en: 'Post-CFC TASV Maturity' },
+    specialty: { fr: 'Technique, architecture et science de la vie', en: 'Technical sciences' },
     period: "2024",
   },
   {
     school: { fr: 'CPNV', en: 'CPNV' },
     degree: { fr: 'CFC Électronicien', en: 'Electronics Technician CFC' },
+    specialty: { fr: 'électronique', en: 'Electronics' },
     period: "2021",
   },
   {
